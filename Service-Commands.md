@@ -112,7 +112,7 @@ sc start pingme
 
 #### Create a User Creation Service
 ```powershell
-sc create useradd binPath="net user u1 @rmour123 /add"
+sc create useradd binPath="net user u1 password@123 /add"
 ```
 
 #### Start the User Creation Service
