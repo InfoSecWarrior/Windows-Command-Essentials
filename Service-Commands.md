@@ -34,7 +34,7 @@ sc query LanmanServer
 
 ---
 
-# Service Configuration
+## Service Configuration
 
 #### Display the Configuration of a Service
 ```powershell
@@ -68,7 +68,7 @@ sc config Audiosrv
 
 ---
 
-# Creating and Managing Services
+## Creating and Managing Services
 
 #### Create a New Service
 ```powershell
@@ -132,7 +132,7 @@ sc start useradd
 
 ---
 
-# Exploitation Example
+## Exploitation Example
 
 #### Generate a Reverse Shell Executable Using msfvenom
 ```powershell
