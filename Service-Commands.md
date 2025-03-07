@@ -159,7 +159,7 @@ shutdown /r /t 0 /f
 
 ---
 
-# Service Management Using `net`
+## Service Management Using `net`
 
 #### Start a Service Using `net`
 ```powershell
@@ -183,7 +183,7 @@ net continue TlntSvr
 
 ---
 
-# Using `wmic` to Manage Services
+## Using `wmic` to Manage Services
 
 #### List All Services with Details
 ```powershell
@@ -202,7 +202,7 @@ wmic service get name, displayname, pathname, startmode | findstr /i "auto" | fi
 
 ---
 
-# Additional Resources
+## Additional Resources
 
 #### ServiceSecurityEditor
 
